@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Curriculum Vitae Edimar Morales</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+
+
+<body>
+  <h1 style tape=" font-family: times new roman; "> EDIMAR MORALES </h1>
+ 
+ <div id="main-container"> 
+  <header>
+   <div id="menu">
+    <a href="#"></a>
+    <ul>
+
+     <li><a href="#Experiencia">Experiencia</a></li>
+     <li><a href="#Habilidades">Habilidades</a></li>
+     <li><a href="#Perfiles Sociales">Perfiles Sociales</a></li>
+     <li><a href="#Educación">Educación</a></li>
+     <li><a href="#Contacto">Contacto</a></li>
+
+    </ul>
+   </div>
+  </header>
+ </div>
+ <hr>
+
+ <h2 id="Experiencia">Experiencia Laboral</h2>
+
+ <div class="Table-responsive"> 
+  <table>
+   <thead>
+    <tr>
+     <th>Empresa/Organización</th>
+     <th>Cargo</th>
+      <th>Localización</th>
+      <th>Desde-Hasta</th>
+      <th>Contacto</th>
+    </tr>
+   </thead>
+
+  <tbody>
+
+    <tr>
+      <td>Soles Inversiones</td>
+      <td>Supervisor de Ventas</td>
+      <td>Valencia</td>
+      <td>15/01/2018</td>
+      <td>0414.340.2220</td>
+    </tr>
+
+    <tr>
+      <td>NG Athelier</td>
+      <td>Encargada</td>
+      <td>Valencia</td>
+      <td>2015-2017</td>
+      <td>0412.967.3585</td>
+    </tr>
+
+    <tr> 
+      <td>Donato fotos SRL</td>
+      <td>Recepcionista de contratos y atención al cliente</td>
+      <td>Valencia</td>
+      <td>2013-2015</td>
+      <td>0424.496.0184</td>
+    </tr>
+
+    </tbody>
+    </table>
+    </div>
+
+    <hr>
+    <h2 id="Habilidades">Habilidades y Conocimientos</h2>
+  <ul> 
+   <li><strong>Excel: </strong>Manejo de excel completo.
+   <li><strong>Gerencia: </strong>Gerencia de empresas.
+   <li><strong>Marketing: </strong>Email marketing, redes sociales, etc.
+   <li><strong>Administración: </strong>Manejo de la administración de una empresa.
+   <li><strong>Contabilidad: </strong>Manejo de la contabilidad.
+  </ul>
+ <hr>
+
+ <h2 id="Educación">Educación</h2>
+  <ul> 
+   <li><strong>Primaria:</strong> E.B.E Luis Rafael Betancourt y Galindez.
+   <li><strong>Secundaria:</strong> U.E José Gregorio Ponce Bello.
+   <li><strong>Diversificada:</strong> UNITEC Universidad Tecnológica del Centro.
+  </ul>
+ <hr>
+ <h3>Otros Estudios</h3>
+
+
+        <table class="Table-responsive">
+         <thead>
+          <tr>
+           <th>Curso</th>
+           <th>Entidad</th>
+           <th>Año</th>
+          </tr>
+         </thead>
+  <tbody>
+   <tr> 
+      <td>Excel Básico, Intermedio y Avanzado</td>
+      <td>Centro de Contadores</td>
+      <td>2019</td>
+  </tr>
+
+  <tr> 
+      <td>Asistente Administrativo</td>
+      <td>Centro de Contadores</td>
+      <td>2018</td> 
+  </tr>
+
+  <tr> 
+      <td>Contabilidad</td>
+      <td>Academia Valencia</td>
+      <td>2018</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <hr>
+  <h2 id="Perfiles-Sociales">Perfiles Sociales</h2>
+  <p style="color:#FF0000;">Puedes encotrarme en:</p>
+  <ul>
+   <li><a href=
+"https://www.instagram.com/veronicamoralesg3/?hl=es-la">Instagram</a></li>
+   <li><a href="https://m.facebook.com/Veronica.Morales11">Facebook</a></li>
+   <li><a href="https://mobile.twitter.com/EdimarMorales7">
+Twitter</a></li>
+  </ul>
+
+  <footer>
+   <hr>
+   <h2 id="Contacto">Contacto</h2>
+    <address>
+   Edimar Morales <br>
+   <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Edimarm1128@gmail.com</a><br>
+   </address>
+   </footer>
+
+   <p style="color:#FF0000;">Para solicitar mi número celular, ingrese sus datos</p>
+
+   <label for="name">Nombre y Apellido:<input type="text" name="apellido">
+    Email:<input type="email" name="email">
+    <button name="button">Enviar datos</button>
+   </label>
+
+</body>
+</html>
+
+___________________________________________________________________________________________________________________________________________
+CSS
+
+*{
+padding: 10;
+margin: 300;
+}
+
+body {
+  background-color:#ffcc00;;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  background-color:#fff666;
+
+}
+
+table {
+  height: 200px;
+  width: 50%;
+  border: black 10px solid;
+
+ }
+tbody {
+
+  background-color: #fff666;
+  margin: 15px;
+  padding: 15px;
+}
+tr {
+  border: green 7px solid;
+}
+tbody {
+  margin: 15px;
+  padding: 15px;
+}
+
+ h2 
+{
+background-color:#fff666;
+font-family: arial;
+}
+header
+ {
+background-color:#FFB406;
+font-family:helvetica;
+}
+
+}
+
